@@ -8,21 +8,27 @@
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <style>
 <!--
-body {
-  background: linear-gradient(0deg, rgba(247,247,247,1) 0%, rgba(230,230,230,1) 50%, rgba(247,247,247,1) 100%) no-repeat;
-  background-size: 100% 135%;
-  background-color: #f7f7f7;
+body,html {
+  background-color: rgb(30, 30, 30);
+  background-image: url('waves.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 span.com {
-  background: -webkit-linear-gradient(#ee7300, #d64906);
+  background: -webkit-linear-gradient(rgb(238, 115, 0), rgb(214, 73, 6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 span.tick {
-  font-size: 10em;
+  font-size: 200px;
 }
 .fa-gradient {
-  background: -webkit-gradient(linear, left top, left bottom, from(#079c00), to(#16dc00));
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(7, 156, 0)), to(rgb(22, 220, 0)));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -69,8 +75,8 @@ a {
 <body>
   <div class="content">
   <br/><br/><br/><br/>
-  <span class="tick"><i class="fa fa-check-circle fa-gradient" aria-hidden="true"></i></span>
-  <p style = "font-family: 'Cabin', sans-serif; font-size: 5em; line-height: 0%;">
+  <span class="tick"><i class="fa fa-check-circle fa-gradient fa-stack-1x" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true" style="color: white; font-size: 0.9em; vertical-align:5%;"></i></span>
+  <p style = "font-family: 'Cabin', sans-serif; font-size: 5em; line-height: 0%; color: white;">
   <span>Oxiegen</span><span class="com">.uk</span>
   </p>
   <br/><br/><br/><br/>
